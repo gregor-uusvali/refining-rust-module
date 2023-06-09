@@ -10,20 +10,32 @@
   5. Layered system architecture. In REST APIs, the calls and responses go through different layers. As a rule of thumb, don’t assume that the client and server applications connect directly to each other. There may be a number of different intermediaries in the communication loop. REST APIs need to be designed so that neither the client nor the server can tell whether it communicates with the end application or an intermediary.
   6. Code on demand (optional). REST APIs usually send static resources, but in certain cases, responses can also contain executable code (such as Java applets). In these cases, the code should only run on-demand.
 
+## Best practices
+- HTTP methods and its relation with REST
+  - In HTTP there are five methods that are commonly used in a REST-based Architecture i.e., `POST`, `GET`, `PUT`, `PATCH`, and `DELETE`. These correspond to create, read, update, and delete (or CRUD) operations respectively.
+- [DOs and DONTs with real endpoint example](https://medium.com/creative-black-pug-studio/restful-apis-5b0944900e6a)
+- CRUD pitfall / imdempotency
+- exception handling
+
 ## REST API with Java
 ### Common framework
-### Practicle example
+[Spring Boot](https://spring.io/projects/spring-boot) is a framework in java that helps you to bring up a project quickly, it's not REST-specific, but commonly used to build RESTful web service due to the convinience and extendability that it provides
+### Practicle exampleg
+[Spring Initializr](https://start.spring.io/)
+
 
 ## REST API with Python
 ### Common framework
+[Django](https://www.djangoproject.com/)
 ### Practicle example
 
 ## REST API with Go
 ### Common framework
+[Gin](https://github.com/gin-gonic/gin#gin-web-framework)
 ### Practicle example
 
 ## Reference
-https://www.ibm.com/topics/api
-https://www.ibm.com/topics/rest-apis
-https://aws.amazon.com/what-is/restful-api/
-https://www.redhat.com/en/topics/api/what-is-a-rest-api
+- [IBM: What's an API](https://www.ibm.com/topics/api)
+- [IBM: What's a RESTful API](https://www.ibm.com/topics/rest-apis)
+- [Amazon: What's a RESTful API](https://aws.amazon.com/what-is/restful-api/)
+- [Redhat: What's a RESTful API](https://www.redhat.com/en/topics/api/what-is-a-rest-api)

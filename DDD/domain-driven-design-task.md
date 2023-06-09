@@ -19,7 +19,7 @@ Bonus: Model the project with UML.
 
 [Best Practice - An Introduction To Domain-Driven Design](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design)
 
-[Domain-driven design](hhttps://en.wikipedia.org/wiki/Domain-driven_design)
+[Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design)
 
 [Domain-driven Design Example](https://www.mirkosertic.de/blog/2013/04/domain-driven-design-example/)
 

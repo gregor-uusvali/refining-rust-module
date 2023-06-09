@@ -64,8 +64,6 @@ Final presentation forming
 - Rough outline of a new branch where students choose a language that they want to learn.
 - Some task ideas that are interesting to implement in any programming language .
 
-Github repository: [https://github.com/gregor-uusvali/refining-rust-module](https://github.com/gregor-uusvali/refining-rust-module)
-
 \*\* New optional solo branch with tasks that are more real-world problem orientated in langugage of your choise.
 
 Learn and use most common data-structures.
@@ -79,3 +77,5 @@ Learn and use most common data-structures.
 5. Message queue - inernal server communication (Jason)
 6. Micro services - comparison of monolith and micro (Gerdo)
 7. CI/CD - deploying changes to web server (Tanveer)
+
+Github repository: [https://github.com/gregor-uusvali/refining-rust-module](https://github.com/gregor-uusvali/refining-rust-module)

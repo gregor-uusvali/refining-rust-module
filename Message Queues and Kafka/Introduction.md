@@ -4,6 +4,8 @@ When creating an application, sometimes the application needs to read in events 
 
 This can be a tricky problem to solve as applications may not want to maintain an API that updates so frequently. Getting data from an API can also be a large use of resources as the database needs to be maintained and the application will need to handle high traffic.
 
+Database polling is an inefficient solution for real time updates. For software that needs to update its information in real time, it would be difficult to use a database.
+
 An alternative way for multiple services to communicate is by using message queues.
 
 ## What is a Message Queue?

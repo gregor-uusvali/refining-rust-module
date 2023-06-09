@@ -1,5 +1,7 @@
 # Task: Build a message queue
 
+Build a message queue using Apache Kafka to enable communication between two applications.
+
 ##  Requirements:
 - Create application A
 - Create a Kafka topic 

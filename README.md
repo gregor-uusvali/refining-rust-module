@@ -93,3 +93,18 @@ Final presentation forming
   
 
 Github repository: [https://github.com/gregor-uusvali/refining-rust-module](https://github.com/gregor-uusvali/refining-rust-module)
+
+** New optional solo branch with tasks that are more real-world problem orientated in langugage of your choise.
+
+Learn and use most common data-structures.
+
+--Some topics --
+1) GitHub PR - basic concepts of code review process (Lim-Kiat)
+2) REST API - implementation and restful convention (Sally)
+3) Domain Driven Development  - code structure conventions (Gregor)
+4) Testing - unit test and integration (mocking, tdd)/ given some example code write test for the code (Tanveer/Gregor)
+5) Message queue - inernal server communication (Jason)
+6) Micro services - comparison of monolith and micro (Gerdo)
+7) CI/CD - deploying changes to web server (Tanveer)
+8) 
+

@@ -32,5 +32,6 @@ Apache Kafka is a popular implementation of a message queue system. It is used w
 
 ## Further Reading
 
+[Event Streaming with Kafka](https://kafka.apache.org/documentation/)
 
-
+[Gently Down the Stream](https://www.gentlydownthe.stream/)

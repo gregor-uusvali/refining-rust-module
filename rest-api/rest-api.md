@@ -13,15 +13,15 @@
 ## Best practices
 - HTTP methods and its relation with REST
   - In HTTP there are five methods that are commonly used in a REST-based Architecture i.e., `POST`, `GET`, `PUT`, `PATCH`, and `DELETE`. These correspond to create, read, update, and delete (or CRUD) operations respectively.
+- An **idempotent** HTTP method is a HTTP method that can be called many times without different outcomes. It would not matter if the method is called only once, or ten times over. A `PUT` request should should always be idempotent.
 - [DOs and DONTs with real endpoint example](https://medium.com/creative-black-pug-studio/restful-apis-5b0944900e6a)
-- CRUD pitfall / imdempotency
-- exception handling
+
 
 ## REST API with Java
 ### Common framework
 [Spring Boot](https://spring.io/projects/spring-boot) is a framework in java that helps you to bring up a project quickly, it's not REST-specific, but commonly used to build RESTful web service due to the convinience and extendability that it provides
-### Practicle exampleg
-[Spring Initializr](https://start.spring.io/)
+### Practicle example
+[Building a RESTful Web Service with SpringBoot](https://spring.io/guides/gs/rest-service/)
 
 
 ## REST API with Python
@@ -39,3 +39,4 @@
 - [IBM: What's a RESTful API](https://www.ibm.com/topics/rest-apis)
 - [Amazon: What's a RESTful API](https://aws.amazon.com/what-is/restful-api/)
 - [Redhat: What's a RESTful API](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
+- [Geek for Geek](https://www.geeksforgeeks.org/rest-api-introduction/)
